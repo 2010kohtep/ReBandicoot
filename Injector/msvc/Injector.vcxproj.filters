@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{7f36bbb0-4dd5-4ada-9084-2b814ea67074}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils">
+      <UniqueIdentifier>{9fc2cb1c-744f-4f5f-a294-7e18e69914ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Utils\StrUtils">
+      <UniqueIdentifier>{c9ca95db-7716-488a-98ea-0280bf62078c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\NSaneInjector.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Utils\StrUtils\StrUtils.cpp">
+      <Filter>src\Utils\StrUtils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\Utils\StrUtils\StrUtils.h">
+      <Filter>src\Utils\StrUtils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

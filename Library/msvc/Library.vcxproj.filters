@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{9884a42f-3c73-4017-93e3-1c625e2d4e87}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ReBandicoot">
+      <UniqueIdentifier>{676400ca-73b5-4b37-8300-221559d79b52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ReBandicoot\ig">
+      <UniqueIdentifier>{560c4b72-b315-4ee7-a30b-826fdf07a552}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Common">
+      <UniqueIdentifier>{4e68d8ac-1fee-4802-a091-75204e80a6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ReBandicoot\System">
+      <UniqueIdentifier>{857ff6da-93c3-4a65-a565-d7da552e004c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ReBandicoot\game">
+      <UniqueIdentifier>{75c68a17-ede9-4a51-8504-7d45395e53b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ReBandicoot\ig\fields">
+      <UniqueIdentifier>{95ed4f83-d6c5-4334-b488-6705e487bc57}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\ReBandicoot\ig\ObjectBase.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common\TypeDefs.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\Object.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\BaseMeta.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\MetaObject.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\DotNetMetaObject.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\system\SystemData.h">
+      <Filter>src\ReBandicoot\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\system\StatisticsManager.h">
+      <Filter>src\ReBandicoot\System</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\Singleton.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\game\GameVariable.h">
+      <Filter>src\ReBandicoot\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\game\GameBoolVariable.h">
+      <Filter>src\ReBandicoot\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\ComponentData.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\game\CEntityComponentData.h">
+      <Filter>src\ReBandicoot\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\game\CPlayerJumpComponentData.h">
+      <Filter>src\ReBandicoot\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\MetaFunction.h">
+      <Filter>src\ReBandicoot\ig</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\fields\HandleMetaField.h">
+      <Filter>src\ReBandicoot\ig\fields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\fields\MetaField.h">
+      <Filter>src\ReBandicoot\ig\fields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\fields\ObjectRefMetaField.h">
+      <Filter>src\ReBandicoot\ig\fields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\fields\RefMetaField.h">
+      <Filter>src\ReBandicoot\ig\fields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\ig\fields\StructMetaField.h">
+      <Filter>src\ReBandicoot\ig\fields</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Common\Global.h">
+      <Filter>src\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ReBandicoot\game\CClient.h">
+      <Filter>src\ReBandicoot\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\NSaneLibrary.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Common\Global.cpp">
+      <Filter>src\Common</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
